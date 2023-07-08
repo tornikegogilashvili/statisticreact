@@ -32,6 +32,8 @@
     width: 17px;
     cursor: pointer;
     transition: 0.2s;
+    /* z-index: 11;
+    position: relative; */
 }
 .fa_info:hover{
     background-color: #a1a1a1;
