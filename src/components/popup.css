@@ -1,0 +1,6 @@
+.i_button{
+    position: absolute;
+    top:40px;
+    left: 50%;
+    z-index: 11;
+}

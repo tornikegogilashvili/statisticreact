@@ -5,10 +5,10 @@ import logo1 from "../images/geostatpop.31d1e9d6067f4afa850b.png"
 import logo2 from "../images/usdapop.4aef2951eb177ab713ea.jpg"
 
 
-export const USDA = () => {
-    return(
+export const USDA = (props) => {
+    return(props.trigger) ? (
         <div className="usda_div">
-            <FontAwesomeIcon className='usdaX_icon' icon={faX} />
+            <FontAwesomeIcon onClick={() => props.setTrigger(false)} className='usdaX_icon' icon={faX} />
             <div className='usda_div_img'>
                 <img className='usda_div_img1' src={logo1} alt='logo1' />
                 <img className='usda_div_img2' src={logo2} alt='logo2' />
@@ -49,5 +49,5 @@ export const USDA = () => {
                 - შეიცავს სოფლის მეურნეობის ისეთ სტატისტიკურ ინფორმაციას, რომელიც დაკავშირებულია ბიზნეს სექტორთან, პირდაპირ უცხოურ ინვესტიციებთან, ფასებთან, გენდერთან, ეროვნულ ანგარიშებთან, ხელფასებსა და დასაქმებასთან და ა.შ. 
             </p>
         </div>
-    )
+    ) : "";
 }
