@@ -12,7 +12,7 @@ function App() {
       {/* <USDA trigger={true}>
 
       </USDA> */}
-      <Popup />
+      {/* <Popup /> */}
       {/* <Routes>
         <Route  />
       </Routes> */}
