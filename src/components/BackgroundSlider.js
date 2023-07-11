@@ -6,7 +6,8 @@ const BackgroundSlider = () => {
     const [currentState, setCurrentState] = useState(0);
     useEffect(() => {
         const timer = setTimeout(() => {
-            if(currentState==2){
+            console.log(currentState);
+            if(currentState==6){
                 setCurrentState(0)
             }else{
                 setCurrentState(currentState+1)
