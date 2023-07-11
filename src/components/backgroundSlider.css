@@ -24,12 +24,15 @@
 .carousel-boullt span{
     width: 20px;
     height: 20px;
-    background-color: blue;
+    background-color: rgba(0,0,0,0.3);
+    border:0.5px solid #ffffff;
     border-radius: 50%;
     margin: 0 5px;
     cursor:pointer;
 }
-.container_style
+.container_style{
+    
+}
 
 
 
