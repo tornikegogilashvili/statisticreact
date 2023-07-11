@@ -10,7 +10,7 @@ export const Nav = () => {
 
     return(
         <div className='nav_main'>
-            <div class="language_changer_div">
+            <div className="language_changer_div">
                 <FontAwesomeIcon icon={faGlobe} />
                 <div className='language_changer_div_p'>ქარ</div>
                 <FontAwesomeIcon icon={faCheck} />
@@ -23,7 +23,7 @@ export const Nav = () => {
             }
         }
             } className='fa_info' icon={faInfo} />
-            <div class="socialnetwork_div" >
+            <div className="socialnetwork_div" >
                 <FontAwesomeIcon className='nav_icon' icon={faFacebook} />
                 <FontAwesomeIcon className='nav_icon' icon={faTwitter} />
                 <FontAwesomeIcon className='nav_icon' icon={faLinkedin} />

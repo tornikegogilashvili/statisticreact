@@ -4,15 +4,18 @@ import './App.css';
 import { Header } from './components/Header';
 import { USDA } from './components/USDA';
 import { Popup } from './components/Popup';
+import BackgroundSlider from './components/BackgroundSlider';
+
+
 
 function App() {
   return (
     <div>
       <Header  />
-      {/* <USDA trigger={true}>
-
-      </USDA> */}
-      {/* <Popup /> */}
+      <div className='App'>
+        <BackgroundSlider />
+      </div>
+      
       {/* <Routes>
         <Route  />
       </Routes> */}
