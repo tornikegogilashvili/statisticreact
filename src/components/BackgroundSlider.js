@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react"
 import "./backgroundSlider.css"
 import imageSlide from "./data"
+import { Cards } from "./Cards"
+
+
 
 const BackgroundSlider = () => {
     const [currentState, setCurrentState] = useState(0);
@@ -19,18 +22,19 @@ const BackgroundSlider = () => {
         backgroundImage: `url(${imageSlide[currentState]?.url})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
-        height: "100%"
+        // height: "100vh",
+        backgroundAttachment: "fixed",
     }
     const goToNext = (currentState) => {
         setCurrentState(currentState)
     }
     return (
         <div className="container_style">
-            <div style={bgImageStyle}></div>
+            <div className="bgImageStyle" style={bgImageStyle}></div>
             <div className="description">
                 <div>
                     <h2>სოფლის მეურნეობის <br/> სტატისტიკის პორტალი</h2>
-                    <p>მინი ტექსტი</p>
+                    <Cards />
                 </div>
                 <div className="carousel-boullt">
                     {
