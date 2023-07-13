@@ -16,6 +16,18 @@
     font-size: 50px;
     color: #ffffff;
 }
+.description p {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 30px;
+}
+.slide_arrow{
+    color: #ffffff;
+    font-size: 26px;
+    margin-right: 20px;
+    cursor: pointer;
+}
 .carousel-boullt{
     display: flex;
     align-items: center;
@@ -50,7 +62,7 @@
         text-align: center;
     }
     .bgImageStyle{
-        height: 380vh;
+        height: 310vh;
     }
 }
 @media (max-width: 860px) {
