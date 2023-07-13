@@ -15,7 +15,7 @@ const BackgroundSlider = () => {
             }else{
                 setCurrentState(currentState+1)
             }
-        },2000)
+        },10000)
         return () => clearTimeout(timer)
     },[currentState])
     const bgImageStyle = {

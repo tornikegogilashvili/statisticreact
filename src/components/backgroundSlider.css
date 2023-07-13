@@ -50,8 +50,14 @@
         text-align: center;
     }
     .bgImageStyle{
-        height: 250vh;
+        height: 380vh;
     }
+}
+@media (max-width: 860px) {
+    .description h2{
+        font-size: 6vw;
+    }
+    
 }
 @media (max-width: 290px) {
     .description h2{

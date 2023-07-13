@@ -15,9 +15,35 @@
     background-color: #ffffff;
     border-radius: 20px;
     margin: 2% 0;
+    background-image: url(../images/card1.e95ab6b0391b6178db03.jpg);
 }
+.img_div{
+    margin: 8%;
+    width: 90px;
+    height: 90px;
+    background-color: #1d4657;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .cards_div_white h3{
     font-size: 24px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.cards_div_white p{
+    background-color: #c2e854;
+    color: #005f15;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 700;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
 }
 
 
@@ -31,14 +57,14 @@
     .cards_div_white{
         text-align: center;
         width: 80%;
-        height: 35vh;
+        height: 55vh;
         background-color: #ffffff;
         border-radius: 20px;
     }
-    /* .cards_div_white:nth-last-child(2){
-        width: 47%;
+    
+}
+@media (max-width: 300px) {
+    .cards_div_white h3{
+        font-size: 7vw;
     }
-    .cards_div_white:nth-last-child(1){
-        width: 47%;
-    } */
 }
