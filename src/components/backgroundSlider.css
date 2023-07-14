@@ -16,12 +16,13 @@
     font-size: 50px;
     color: #ffffff;
 }
-.description p {
+.description_p {
     font-size: 20px;
     color: #ffffff;
     font-weight: 500;
     line-height: 30px;
 }
+
 .slide_arrow{
     color: #ffffff;
     font-size: 26px;
@@ -36,7 +37,6 @@
     /* right: 50%; */
     right: 50%;
     transform: translate(50%);
-    
 }
 .carousel-boullt span{
     width: 20px;
@@ -50,10 +50,11 @@
 }
 .container_style{
     margin-bottom: 50px;
+    /* height: 100vh; */
 }
 
 .bgImageStyle{
-    height: 100vh;
+    height: 120vh;
 }
 
 
@@ -62,7 +63,7 @@
         text-align: center;
     }
     .bgImageStyle{
-        height: 310vh;
+        height: 500vh;
     }
 }
 @media (max-width: 860px) {
@@ -76,6 +77,12 @@
         font-size: 9vw;
     }
     .bgImageStyle{
-        height: 250vh;
+        height: 500vh;
+    }
+}
+@media (max-height: 647px) {
+    
+    .bgImageStyle{
+        height: 500vh;
     }
 }
