@@ -22,17 +22,16 @@ const BackgroundSlider = () => {
             }else{
                 setCurrentState(currentState+1)
             }
-        },200000)
+        },5000)
         return () => clearTimeout(timer)
     },[currentState])
 
-    const bgImageStyle = {
-        backgroundImage: `url(${imageSlide[currentState]?.url})`,
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        // height: "100%",
-        backgroundAttachment: "fixed",
-    }
+    document.body.style.backgroundImage = `url(${imageSlide[currentState]?.url})`;
+    document.body.style.backgroundPosition = "center";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundRepeat = "no-repeat";
+    document.body.style.backgroundAttachment = "fixed";
+
     const goToNext = (currentState) => {
         setCurrentState(currentState)
     }
@@ -53,7 +52,7 @@ const BackgroundSlider = () => {
 
     return (
         <div className="container_style">
-            <div className="bgImageStyle" style={bgImageStyle}></div>
+            <div className="bgImageStyle" ></div>
             <div className="description">
                 <div>
                     <h2>სოფლის მეურნეობის <br/> სტატისტიკის პორტალი</h2>
@@ -72,6 +71,8 @@ const BackgroundSlider = () => {
                         ))
                     }
                 </div>
+                <p className="footer_p">2023 საქართველოს სტატისტიკის ეროვნული სამსახური
+<br/><a href="#">მონაცემთა გამოყენების პირობები</a></p>
             </div>
         </div>
     )

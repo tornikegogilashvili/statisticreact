@@ -10,8 +10,8 @@ function App() {
   return (
     <div className='first_div'>
       <Header  />
-      <div className='App'>
-        <BackgroundSlider />
+      <div id='App'  className='App'>
+        <BackgroundSlider  />
       </div>
       
       {/* <Routes>

@@ -11,27 +11,27 @@ export const Cards = () => {
     <div className="cards_div">
         <div className="cards_div_white">
             <div className="img_div"><img src={მცენარე} alt="მემცენარეობა" /></div>
-            <h3>მემცენარეობა</h3>
+            <h3 className="cards_div_white_h3">მემცენარეობა</h3>
             <p>ნახვა</p>
         </div>
         <div className="cards_div_white">
             <div className="img_div"><img src={მეცხოველეობა} alt="მეცხოველეობა" /></div>
-            <h3>მემცენარეობა</h3>
+            <h3 className="cards_div_white_h3">მემცენარეობა</h3>
             <p>ნახვა</p>
         </div>
         <div className="cards_div_white">
             <div className="img_div"><img src={აკვაკულტურა} alt="აკვაკულტურა" /></div>
-            <h3>მემცენარეობა</h3>
+            <h3 className="cards_div_white_h3">მემცენარეობა</h3>
             <p>ნახვა</p>
         </div>
         <div className="cards_div_white">
             <div className="img_div"><img src={სასურსათობალანსი} alt="სასურსათობალანსი" /></div>
-            <h3>მემცენარეობა</h3>
+            <h3 className="cards_div_white_h3">მემცენარეობა</h3>
             <p>ნახვა</p>
         </div>
         <div className="cards_div_white">
             <div className="img_div"><img src={ძირითადიინფო} alt="ძირითადიინფო" /></div>
-            <h3>მემცენარეობა</h3>
+            <h3 className="cards_div_white_h3">მემცენარეობა</h3>
             <p>ნახვა</p>
         </div>
         <div className="line_div"></div>
