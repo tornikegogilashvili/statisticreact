@@ -1,4 +1,13 @@
+@font-face {
+  font-family: firaGO;
+  src: url(../FiraGO-Regular.ttf);
+}
+*{
+  font-family: "FiraGO";
+  font-feature-settings: 'cpsp' on, 'case' on;
 
+
+}
 body {
   margin: 0;
   padding: 0;
@@ -12,7 +21,6 @@ body {
   overflow-x: hidden;
   height: 100%;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

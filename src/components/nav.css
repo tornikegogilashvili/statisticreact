@@ -19,9 +19,13 @@
 
 
 .language_changer_div_p{
-    font-weight: 300;
     padding: 0 6px;
-    font-size: 16px;
+    color: #808184;
+    font-family: FiraGO;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
 
 }
 .fa_info{

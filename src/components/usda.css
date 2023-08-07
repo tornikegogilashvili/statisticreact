@@ -70,13 +70,13 @@
 
 .usda_div_p{
     width: 400px;
-    text-align: justify;
+    /* text-align: justify; */
     margin: 20px auto;
     /* padding: 0 9vw; */
 }
 .usda_div_ul {
     width: 400px;
-    text-align: justify;
+    /* text-align: justify; */
     margin: 10px auto;
     /* padding: 0 9vw; */
 }.usda_div_ul li{

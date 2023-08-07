@@ -15,6 +15,7 @@
     border-radius: 20px;
     margin: 2% 0;
     background-image: url(../images/card1.e95ab6b0391b6178db03.jpg);
+    transition: 0.3s;
 }
 .cards_div_white:hover{
     background-image: unset;
@@ -24,7 +25,7 @@
         background-color: #ffffff;
     }
     .img_div img{
-        filter: invert(40%) sepia(17%) saturate(1066%) hue-rotate(120deg) brightness(47%) contrast(105%);    
+        filter: invert(50%) sepia(57%) saturate(1066%) hue-rotate(120deg) brightness(47%) contrast(105%);    
     }
     .cards_div_white_h3{
         color: #ffffff;
@@ -34,18 +35,19 @@
     margin: 8%;
     width: 90px;
     height: 90px;
-    background-color: #1d4657;
+    background-color: #005F15;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+
 .cards_div_white h3{
     font-size: 1.7vw;
     margin-left: 7%;
     margin-right: 7%;
-    color: #1d4657;
+    color: #005F15;
 }
 .cards_div_white p{
     background-color: #c2e854;

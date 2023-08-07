@@ -4,12 +4,11 @@
     height: 100%;
     background-position: center;
     background-size:cover;
+    
 }
 .bgImageStyle{
     width: 100%;
     height: auto;
-    background-color: black;
-    opacity: 0.5;
     z-index: 1;
     position: absolute;
 }
@@ -23,8 +22,13 @@
     right: 2%;
 }
 .description h2{
+    color: #FFF;
+    font-feature-settings: 'cpsp' on, 'case' on;
+    font-family: FiraGO;
     font-size: 50px;
-    color: #ffffff;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 65px; 
 }
 .description_p {
     font-size: 20px;
@@ -90,3 +94,43 @@
     }
     
 }
+.container_style {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .bgImageStyle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: background-position .3s ease-out;
+  }
+  
+  .backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .darkOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  }
+  
+  .carousel-boullt .carousel_span.active {
+    background-color: #fff; /* Change this color to your desired white color */
+  }
+  

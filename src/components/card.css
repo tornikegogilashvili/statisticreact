@@ -22,6 +22,7 @@
 .card div img{
     width: 50px;
     height: 50px;
+    margin-right: 5px;
 }
 .card_p{
     font: 18px;
